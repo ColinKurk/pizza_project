@@ -1,0 +1,115 @@
+body {
+  background: linear-gradient(179deg, #e41010, #169ddb);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 28s ease infinite;
+  animation: AnimationName 28s ease infinite;
+
+  @-webkit-keyframes AnimationName {
+      0%{background-position:49% 0%}
+      50%{background-position:52% 100%}
+      100%{background-position:49% 0%}
+  }
+  @keyframes AnimationName {
+      0%{background-position:49% 0%}
+      50%{background-position:52% 100%}
+      100%{background-position:49% 0%}
+  }
+
+}
+
+.title {
+  display: block;
+   color: rgba(0, 255, 0, 1);
+    font: 90px "Amatic SC", sans-serif;}
+
+#menuBG {
+	margin: 2% auto;
+	width: 650px;
+	border-radius: 40px;
+	padding: 1px 0px;
+	opacity: 5;}
+
+
+/* Title "tech pizza" */
+
+#menuBG>h1 {
+	font-family: "Amatic SC", sans-serif;
+	font-size: 100px;
+	color: ##000000;
+	text-shadow: 1.5px 1.5px 5px #fff, 1px 1px 5px #000;
+	margin: 2% 0 0 auto;
+	text-align: center;
+}
+
+
+
+#frmMenu {
+	margin: 0% auto;
+	width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+	border-radius: 30px;}
+
+/* menu container box */
+
+.menu {
+	flex: 1 150px;
+	min-width: 0;
+	border: 5px solid #ffffff;
+	box-shadow: 0 0 0 1px rgba(121, 139, 150,1);
+	padding: 0 0 10px 0;
+}
+
+.menu:nth-child(even) {
+	background-color: #ada6a6;
+	border-radius: 25px;}
+
+.menu:nth-child(odd) {
+	background-color: #ada6a6;
+	border-radius: 25px;}
+
+/*Menu title box */
+
+.menu>H3 {
+	font-family: "Amatic SC", sans-serif;
+	color: #ffffff;
+	padding: 0 0 0 80px;
+	margin: 1px auto;
+	background-color: rgba(66, 95, 244,1);
+	border-radius: 25px 25px 0 0;
+	text-shadow: 1.5px 1.5px 5px #000000, 1px 1px 5px #000000;}
+
+.menu>H6 {
+	font-family: "Amatic SC", sans-serif;
+	color: #ffffff;
+	padding: 0 0 0 40px;
+	margin: 5% auto;
+	background-color: rgba(66, 95, 244,1);
+	border-radius: 0px 0px 0px 0px;
+	text-shadow: 1.5px 1.5px 5px #00f, 1px 1px 5px #000;}
+
+.controls>.button {
+	flex: 1 150px;}
+
+/* Order Button */
+
+.button {
+	cursor: pointer;
+	color: ##000000;
+	width: 125%;
+	display: block;
+	text-decoration: none;
+	border-radius: .5em;
+	margin: 1% auto;
+    font: 40px sans-serif;
+	background-color: rgba(255, 230, 15, 1);
+	box-shadow: 0 0 0 2px rgba(0, 255, 0);
+}
+
+.button>p {
+	text-align: center;
+	font-weight: bold;}
